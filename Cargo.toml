@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "universal_file_transfer",
+    "transfer_api",
+]
+# 可选但推荐，设定默认构建目标
+default-members = ["transfer_api"]
+
+# 推荐使用新版 resolver
+resolver = "2"
